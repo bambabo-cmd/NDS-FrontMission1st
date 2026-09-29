@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "repository": "bambabo-cmd/NDS-FrontMission1st",
+  "documented_release": "v0.8.5 / WIP013",
+  "verification_date": "2026-09-29",
+  "timezone": "Asia/Seoul",
+  "source_rom": {
+    "size": 67108864,
+    "md5": "340CBC97E458B14FF053660753F46833",
+    "crc32": "E34DE496",
+    "sha1": "FD08F354A4276BAAF48F8174351E7410C559C2BE",
+    "sha256": "831AE6D64B3FF5B4A2288DAC70C841ECB2B481A2D458F95D0631B27E6D76C50B",
+    "game_code": "AFOJ",
+    "revision": 0,
+    "filename": "Front Mission 1st (Japan).nds",
+    "platform": "Nintendo DS",
+    "region": "Japan",
+    "representation": "압축을 푼 무수정 원본 전체 파일. NDS 내부 헤더를 보존하고 트리밍하지 않음"
+  },
+  "patches": [
+    {
+      "path": "Front Mission 1st (Korean) v0.8.5_WIP013_260926.xdelta",
+      "format": "xdelta",
+      "github_blob_sha": "e5a57dd152f64c0d48cc0197406b83e277fc3bdc",
+      "patch_checksums": {
+        "size": 950739,
+        "md5": "472C4BC6FA4FD7EDE84A26F7DE32195D",
+        "crc32": "3E5F45F0",
+        "sha1": "7AD26D74CAAB3DEF85E8CD0FACACB6CDB4BA8AEF",
+        "sha256": "7527DD5DE95B9C49F4B006EB6A90882BFE74E98DFCA908D8EF7CC6630DDA1BAD"
+      },
+      "patched_rom": {
+        "size": 67108864,
+        "md5": "AE868AF9D978A171DA9817CB4B46B479",
+        "crc32": "99AD6AD3",
+        "sha1": "7A26F362A43296DB85C25CE9E2F857DA58ABE898",
+        "sha256": "3AA2622DCE2218D683D176F6ED09EFA155BD92702D7BCEC87867A39074683A1A"
+      },
+      "verification": "업로드된 Git blob SHA와 로컬 패치 일치 확인 후 지원 원본에 직접 재적용. 결과 전체 파일의 체크섬 계산."
+    }
+  ],
+  "history": {
+    "first_work_date": "2026-09-22",
+    "earliest_verified_record_date": "2026-09-22",
+    "date_evidence": "Front_Mission_Source_Toolkit_v0_4/docs/history/PROGRESS_v0_1.md 및 IMPLEMENTATION_REPORT_v0_1.md. 초기 도구·분석 기록 기준.",
+    "revision_label": "v0.8.5 / WIP013",
+    "recorded_revision_count": 13,
+    "recorded_revision_ids": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    "revision_count_definition": "번호가 붙은 보존 ROM·패치·문서의 고유 버전 수. 실패/철회 후보 포함 가능. 실제 수정 작업 횟수와 다름. Front Mission은 WIP_INDEX, Scurge는 001~010 작업 기록을 사용. 공통 규칙 파일/외부 도구 날짜 제외.",
+    "total_modification_count": null,
+    "release_work_date": "2026-09-26",
+    "final_project_completion_date": null,
+    "completion_status": "전체 작업 완료 기록 미확정; 진행 중인 검수와 알려진 한계를 보존",
+    "additional_context": "USA용 BPS는 분석 참고용이다. 일본판 원본에 이번 xdelta 하나만 적용하며 USA 패치나 이전 한글패치를 추가로 적용하지 않는다."
+  },
+  "verification_scope": "파일 식별 및 패치 적용 결과 검증. 이번 문서 작업에서 에뮬레이터 실행/전체 플레이 검증을 새로 수행한 것은 아님.",
+  "known_limitations": "대표 검증 경로의 통과와 게임 전체 실기·자연 진행 완료는 별도다. 전체 작업 완료일은 미확정."
+}
